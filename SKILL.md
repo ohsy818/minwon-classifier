@@ -3,11 +3,6 @@ name: minwon-classifier
 description: minwon-classifier 작업을 수행하기 위한 단계별 절차입니다.
 ---
 
----
-name: minwon-classifier
-description: Korean-language skill — Use whenever the user asks to classify/tag/route 민원, 국민신문고, 제보, 신고, 문의 등. The skill ingests complaint text and outputs category(불편/신고/질의/건의), department, urgency with confidences and rationales. Trigger on phrases like "민원 분류", "민원 태깅", "소관부서 지정", "긴급도 판단".
----
-
 # minwon-classifier
 
 목적: 자유서술형 민원(국민신문고/제보/문의 포함)을 자동 분류하고, 소관부서를 지정하며, 긴급도를 판단해 태깅합니다. 모든 결과에는 근거 신호와 간단한 한국어 설명, 신뢰도(confidence)를 포함합니다.
